@@ -1,0 +1,97 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+header img {
+    max-width: 60px; 
+    margin: 10px;
+}
+
+.logo-header {
+    background-image: url("img/logo\ slm.png");
+    background-size: 120px; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding-left: 120px; 
+    margin: 10px; 
+}
+
+.logo-header span {
+    font-size: 24px; 
+}   
+
+h1 {
+    text-align: flex; 
+    margin: 0 auto; 
+    background-color: #ffffff;
+    color: #232523;
+    padding: 50px 0;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fffdfdc9;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: flex;
+}
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.imagens-container {
+    background-color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+body {
+    background-color: #1cb138;
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}   
+
+    .imagem-turistica {
+        max-width: 250px; 
+        height: auto;
+        display: inline-block; 
+        margin: 10px; 
+    }
+    
+    footer {
+        background-color: #1cb138;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
